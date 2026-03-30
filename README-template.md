@@ -27,11 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-| Desktop View | Mobile View |
-| --- | --- |
-| ![](./design/Screenshot-myProject-destkop.png) | ![](./design/Screenshot-Social-links-profile-mobile.png) |
-
-
+| Desktop View                         | Mobile View                         |
+| ------------------------------------ | ----------------------------------- |
+| ![](./design/Screenshot-destkop.png) | ![](./design/Screenshot-mobile.png) |
 
 ### Links
 
@@ -53,7 +51,10 @@ Users should be able to:
 This project helped me master centering techniques in Bootstrap. I specifically learned how to handle the `min-vh-100` class to ensure the card stays centered on all devices without overlapping.
 
 ```html
-<body class="min-vh-100 d-flex justify-content-center align-items-center" style="background: hsl(0, 0%, 8%)">
-  <main class="profile-card">
-    </main>
+<body
+  class="min-vh-100 d-flex justify-content-center align-items-center"
+  style="background: hsl(0, 0%, 8%)"
+>
+  <main class="profile-card"></main>
 </body>
+```
